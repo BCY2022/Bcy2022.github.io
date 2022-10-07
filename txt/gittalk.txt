@@ -1,0 +1,17 @@
+<div id="gitalk-container"></div>
+            <script type="text/javascript">
+                var gitalk = new Gitalk({
+                clientID: '8d380402b50d11a2b2f1', //Client ID
+                
+                clientSecret: 'd69feb912ab227851b569f2c76c1547acc7d164f', //Client Secret
+                
+                repo: 'gittalk', 
+                owner: 'BCY2022',
+                admin: ['BCY2022'],
+                number:2,
+                id: location.href, 
+                distractionFreeMode: false 
+                })
+                
+                gitalk.render('gitalk-container')
+            </script>

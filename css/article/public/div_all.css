@@ -7,3 +7,6 @@ div.all a{
     color:rgba(31, 30, 30, 0.836);
     text-decoration: none;
 }
+div#gitalk-container{
+    margin:0 70px 0 30px;
+}
