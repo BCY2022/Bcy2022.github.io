@@ -24,3 +24,18 @@ body{
     font-family: kaiti;
     src: url(../../font-family/kaiti.ttf);
 }
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    scrollbar-width: inherit;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+    background: hsl(157, 34%, 41%);
+    border-radius: 4px;
+}
